@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@reach-sh/stdlib": "^0.1.7-rc.3",
+    "mustache": "^4.2.0"
+  }
+}

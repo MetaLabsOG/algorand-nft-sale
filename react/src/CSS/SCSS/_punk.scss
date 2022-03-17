@@ -1,0 +1,157 @@
+.punk {
+  margin-bottom: 40px;
+}
+
+.punks_header {
+  font-size: 50px;
+  color: #5cfc3c;
+
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.try_ar {
+  font-size: 20px;
+  color: #197303;
+
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.punk__container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.punk_name {
+  font-size: 40px;
+  color: #5cfc3c;
+
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+
+  text-align: left;
+}
+
+.punk__item {
+  width: calc(100%/2);
+}
+
+.punk_attribute {
+  font-size: 20px;
+  color: #197303;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  //margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  word-break: break-word;
+}
+
+.punk_download {
+  border: 2px solid #5cfc3c;
+  color: #5cfc3c;
+  text-transform: uppercase;
+
+  font-family: "Korona One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.punk_download:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+
+model-viewer {
+  height: 500px;
+  background-color: transparent;
+  --poster-color: transparent;
+}
+
+.image_gallery {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.show_more {
+  width: 220px;
+  height: 55.45px;
+  border: 2px solid #5cfc3c;
+  color: #5cfc3c;
+  background-color: #000;
+  text-transform: uppercase;
+
+  font-family: "Korona One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+
+  cursor: pointer;
+}
+
+.show_more:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+
+@media (max-width: 640px) {
+  .punk__container {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .image_gallery {
+    justify-content: start;
+  }
+
+  .punks_header {
+    font-size: 8vw;
+  }
+
+  .punk_name {
+    font-size: 6vw;
+  }
+
+  .punk_download {
+    font-size: 4vw;
+  }
+
+  .punk__item {
+    width: 100%;
+  }
+
+  .punk_attribute {
+    font-size: 3vw;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}

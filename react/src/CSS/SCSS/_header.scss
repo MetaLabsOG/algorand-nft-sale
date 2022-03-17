@@ -1,0 +1,109 @@
+.header {
+  width: 100%;
+
+  &__btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__btn {
+    width: 290px;
+    height: 55.45px;
+    margin: 21px 0 26px;
+    font-size: 21.9755px;
+    line-height: 33px;
+    border: 1.37347px solid #5cfc3c;
+    color: #5cfc3c;
+    background-color: #000;
+    text-transform: uppercase;
+    font-family: "Korona One";
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  &__btn:hover {
+    color: black;
+    background-color: #5cfc3c;
+  }
+
+  &__nav {
+    width: 100%;
+    height: 49px;
+    border-top: 1px solid #5cfc3c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 23.9612px;
+    line-height: 29px;
+    color: #5cfc3c;
+    font-family: "Mandinor";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+  &__menu {
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 14px;
+    color: #5cfc3c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Korona One";
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  &__title {
+    width: 100%;
+    font-family: "Mandinor";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 167px;
+    color: #5cfc3c;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 1160px) {
+  .header {
+    &__title {
+      font-size: 11.5vw;
+      line-height: 13vw;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding-top: 20px;
+    &__title {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto 20px;
+    }
+    &__btn-wrapper {
+      display: none;
+    }
+    &__btn {
+      width: 100%;
+      margin: 21px 0 12px;
+    }
+    &__nav {
+      display: none;
+    }
+  }
+}

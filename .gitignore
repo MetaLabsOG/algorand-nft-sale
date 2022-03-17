@@ -1,0 +1,14 @@
+.idea
+.vscode
+build/
+
+# generated lootboxes
+lootbox1.main.mjs
+lootbox2.main.mjs
+lootbox3.main.mjs
+lootbox4.main.mjs
+lootbox5.main.mjs
+lootbox6.main.mjs
+lootbox7.main.mjs
+lootbox8.main.mjs
+index.rsh

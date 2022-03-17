@@ -1,0 +1,31 @@
+.wallet_header {
+  line-height: 1;
+  color: black;
+  font-family: "Korona One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+.wallet-button {
+  width: 70%;
+  height: 50px;
+  color: white;
+  background-color: #000;
+  border: 0;
+  font-family: "Inter";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.wallet-button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}

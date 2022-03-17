@@ -1,0 +1,64 @@
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+
+  &__viewer {
+    width: 100%;
+    flex-grow: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__header {
+    font-size: 50px;
+    line-height: 1;
+    color: #5cfc3c;
+    text-transform: uppercase;
+    font-family: "Korona One";
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 20px;
+  }
+
+  &__h2 {
+    font-size: 25px;
+    line-height: 33px;
+    color: #5cfc3c;
+    text-transform: uppercase;
+    font-family: "Korona One";
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-break: break-word;
+  }
+
+  &__punkimage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1160px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    min-width: 272px;
+    width: 100%;
+  }
+}

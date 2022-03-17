@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+    backend:
+        build: .
+        restart: always
+        entrypoint: ./scripts/entry.sh
+        volumes:
+            - .:/backend
+            - /var/lib:/var/lib
+        network_mode: host

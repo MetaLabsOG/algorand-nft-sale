@@ -1,0 +1,697 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mint_header {
+  font-size: 30px;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mint_description {
+  font-size: 15px;
+  color: #5cfc3c;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.stage_header {
+  font-size: 30px;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  position: relative;
+  margin-bottom: 20px;
+  white-space: pre-line;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.counter {
+  color: #5cfc3c;
+  font-family: "Korona One";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.algos {
+  color: #5cfc3c;
+  font-family: "Korona One";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.counter_button {
+  color: #5cfc3c;
+  font-family: "Korona One";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.counter_button:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+
+.mint_button {
+  width: 290px;
+  height: 55.45px;
+  border: 2px solid #5cfc3c;
+  color: #5cfc3c;
+  background-color: #000;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.mint_button:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+
+.mint_stage {
+  font-size: 30px;
+  color: #197303;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.mint_account {
+  font-size: 15px;
+  color: #197303;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 10px;
+  word-break: break-word;
+}
+
+.app_input {
+  width: 290px;
+  height: 55px;
+  border: 2px solid #5cfc3c;
+  color: #5cfc3c;
+  background-color: #000;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.app_input::placeholder {
+  color: #197303;
+}
+
+@media (max-width: 640px) {
+  .mint_header {
+    font-size: 8vw;
+  }
+
+  .stage_header {
+    text-align: left;
+    font-size: 6.2vw;
+  }
+
+  .mint_stage {
+    font-size: 6.2vw;
+  }
+}
+.wallet_header {
+  line-height: 1;
+  color: black;
+  font-family: "Korona One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+.wallet-button {
+  width: 70%;
+  height: 50px;
+  color: white;
+  background-color: #000;
+  border: 0;
+  font-family: "Inter";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.wallet-button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.punk {
+  margin-bottom: 40px;
+}
+
+.punks_header {
+  font-size: 50px;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.try_ar {
+  font-size: 20px;
+  color: #197303;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.punk__container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.punk_name {
+  font-size: 40px;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+
+.punk__item {
+  width: 50%;
+}
+
+.punk_attribute {
+  font-size: 20px;
+  color: #197303;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 10px;
+  text-align: left;
+  word-break: break-word;
+}
+
+.punk_download {
+  border: 2px solid #5cfc3c;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.punk_download:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+
+model-viewer {
+  height: 500px;
+  background-color: transparent;
+  --poster-color: transparent;
+}
+
+.image_gallery {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.show_more {
+  width: 220px;
+  height: 55.45px;
+  border: 2px solid #5cfc3c;
+  color: #5cfc3c;
+  background-color: #000;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.show_more:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+
+@media (max-width: 640px) {
+  .punk__container {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .image_gallery {
+    justify-content: start;
+  }
+
+  .punks_header {
+    font-size: 8vw;
+  }
+
+  .punk_name {
+    font-size: 6vw;
+  }
+
+  .punk_download {
+    font-size: 4vw;
+  }
+
+  .punk__item {
+    width: 100%;
+  }
+
+  .punk_attribute {
+    font-size: 3vw;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.container__viewer {
+  width: 100%;
+  flex-grow: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container__header {
+  font-size: 50px;
+  line-height: 1;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+.container__h2 {
+  font-size: 25px;
+  line-height: 33px;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  word-break: break-word;
+}
+.container__punkimage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1160px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    min-width: 272px;
+    width: 100%;
+  }
+}
+.header {
+  width: 100%;
+}
+.header__btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header__btn {
+  width: 290px;
+  height: 55.45px;
+  margin: 21px 0 26px;
+  font-size: 21.9755px;
+  line-height: 33px;
+  border: 1.37347px solid #5cfc3c;
+  color: #5cfc3c;
+  background-color: #000;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+}
+.header__btn:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+.header__nav {
+  width: 100%;
+  height: 49px;
+  border-top: 1px solid #5cfc3c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-size: 23.9612px;
+  line-height: 29px;
+  color: #5cfc3c;
+  font-family: "Mandinor";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+.header__menu {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__link {
+  font-size: 14px;
+  line-height: 14px;
+  color: #5cfc3c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+}
+.header__title {
+  width: 100%;
+  font-family: "Mandinor";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 167px;
+  color: #5cfc3c;
+  text-align: center;
+}
+
+@media (max-width: 1160px) {
+  .header__title {
+    font-size: 11.5vw;
+    line-height: 13vw;
+  }
+}
+@media (max-width: 640px) {
+  .header {
+    padding-top: 20px;
+  }
+  .header__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 20px;
+  }
+  .header__btn-wrapper {
+    display: none;
+  }
+  .header__btn {
+    width: 100%;
+    margin: 21px 0 12px;
+  }
+  .header__nav {
+    display: none;
+  }
+}
+.main {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main__mobile {
+  display: none;
+}
+.main__img {
+  flex-grow: 1;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.main__img img {
+  width: 100%;
+  display: block;
+  align-self: flex-end;
+}
+.main__left img {
+  transform: rotateY(180deg);
+}
+.main__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__title {
+  margin: 0 0 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main__statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 40px;
+}
+.main__statistics--items {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.main__statistics--name {
+  text-transform: capitalize;
+}
+.main__statistics--value {
+  font-weight: bold !important;
+}
+.main__btn {
+  width: 258px;
+  height: 55.45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21.9755px;
+  line-height: 33px;
+  color: #333333;
+  background: #5cfc3c;
+  border: 1.37347px solid rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+@media (max-width: 975px) {
+  .main {
+    justify-content: space-around;
+  }
+  .main__left {
+    display: none;
+  }
+  .main__right {
+    margin-right: 0;
+  }
+  .main__btn {
+    width: 30vw;
+    height: 6vw;
+    font-size: 2.5vw;
+  }
+  .main--items {
+    font-size: 2.5vw;
+    line-height: 3vw;
+  }
+  .main__title {
+    font-size: 4vw;
+    line-height: 4.8vw;
+  }
+}
+@media (max-width: 640px) {
+  .main {
+    height: auto;
+  }
+  .main__img {
+    display: none;
+  }
+  .main__info {
+    display: none;
+  }
+  .main__title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .main__statistics--items {
+    text-align: left;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .main__statistics--items:last-child {
+    width: 100%;
+  }
+  .main__btn {
+    width: 100%;
+    height: 55.45px;
+    font-size: 21.9755px;
+  }
+  .main__mobile {
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main__mobile--info {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main__mobile--info--statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+  }
+}
+.footer {
+  padding: 20px;
+  width: 100%;
+}
+.footer__nav {
+  width: 100%;
+}
+.footer__nav--row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+@font-face {
+  font-family: "Mandinor";
+  src: url("../assets/fonts/Mandinor Italian FY Regular.woff");
+  src: url("../assets/fonts/Mandinor Italian FY Regular.woff2");
+  src: url("../assets/fonts/Mandinor.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Regular.woff");
+  src: url("../assets/fonts/Inter-Regular.woff2");
+  src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Korona One";
+  src: url("../assets/fonts/krona-one-v9-latin-regular.woff");
+  src: url("../assets/fonts/krona-one-v9-latin-regular.woff2");
+  src: url("../assets/fonts/KronaOne-Regular.ttf");
+}
+
+/*# sourceMappingURL=style.css.map */

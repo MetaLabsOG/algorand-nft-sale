@@ -1,0 +1,171 @@
+
+.mint_header {
+  font-size: 30px;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mint_description {
+  font-size: 15px;
+  color: #5cfc3c;
+  //text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.stage_header {
+  font-size: 30px;
+  color: #5cfc3c;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  position: relative;
+  //word-break: break-word;
+  margin-bottom: 20px;
+  white-space: pre-line;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+  margin-bottom: 20px;
+}
+
+.counter {
+  color: #5cfc3c;
+  font-family: "Korona One";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.algos {
+  color: #5cfc3c;
+  font-family: "Korona One";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.counter_button {
+  color: #5cfc3c;
+  font-family: "Korona One";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+
+  cursor: pointer;
+}
+
+.counter_button:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+
+.mint_button {
+  width: 290px;
+  height: 55.45px;
+  border: 2px solid #5cfc3c;
+  color: #5cfc3c;
+  background-color: #000;
+  border-radius: 0px;
+  text-transform: uppercase;
+
+  font-family: "Korona One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.mint_button:hover {
+  color: black;
+  background-color: #5cfc3c;
+}
+
+.mint_stage {
+  font-size: 30px;
+  color: #197303;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+.mint_account {
+  font-size: 15px;
+  color: #197303;
+  text-transform: uppercase;
+  font-family: "Korona One";
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 10px;
+  word-break: break-word;
+}
+
+.app_input {
+  width: 290px;
+  height: 55px;
+  border: 2px solid #5cfc3c;
+  color: #5cfc3c;
+  background-color: #000;
+  text-transform: uppercase;
+
+  font-family: "Korona One";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.app_input::placeholder {
+  color: #197303;
+}
+
+
+@media (max-width: 640px) {
+  .mint_header {
+      font-size: 8vw;
+  }
+
+  .stage_header {
+    text-align: left;
+    font-size: 6.2vw;
+  }
+
+  .mint_stage {
+    font-size: 6.2vw;
+  }
+
+}

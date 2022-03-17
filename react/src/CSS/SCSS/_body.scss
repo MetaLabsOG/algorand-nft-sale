@@ -1,0 +1,24 @@
+body {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  //overflow: hidden;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    width: 100%;
+    //height: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
